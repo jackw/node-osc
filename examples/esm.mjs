@@ -8,7 +8,7 @@ server.on('listening', () => {
 });
 
 server.on('message', (msg) => {
-  console.log(`Message: ${msg}`);
+  console.log(`My message is: ${msg}`);
   server.close();
 });
 
